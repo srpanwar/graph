@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:web="http://schemas.microsoft.com/LiveSearch/2008/04/XML/web" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/LiveSearch/2008/04/XML/element" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.microsoft.com/LiveSearch/2008/04/XML/web" />
+  <xs:element name="SearchResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Query">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SearchTerms" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Errors">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Error">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Code" type="xs:unsignedShort" />
+                    <xs:element name="Message" type="xs:string" />
+                    <xs:element name="Parameter" type="xs:string" />
+                    <xs:element name="Value" type="xs:string" />
+                    <xs:element name="HelpUrl" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="web:Web" />
+      </xs:sequence>
+      <xs:attribute name="Version" type="xs:decimal" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

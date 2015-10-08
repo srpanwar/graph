@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://gdata.youtube.com/schemas/2007" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://gdata.youtube.com/schemas/2007" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="location" type="xs:string" />
+  <xs:attribute name="format" type="xs:unsignedByte" />
+  <xs:element name="duration">
+    <xs:complexType>
+      <xs:attribute name="seconds" type="xs:unsignedByte" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="noembed" />
+  <xs:element name="recorded" type="xs:date" />
+  <xs:element name="statistics">
+    <xs:complexType>
+      <xs:attribute name="favoriteCount" type="xs:unsignedShort" use="required" />
+      <xs:attribute name="viewCount" type="xs:unsignedInt" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

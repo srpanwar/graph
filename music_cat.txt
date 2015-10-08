@@ -1,0 +1,14 @@
+-main
+artist bio
+albums
+album songs with playback
+song lyrics
+top billboard albums
+hometown
+similar artist
+Concert information
+
+
+- related
+topsongs
+top artist

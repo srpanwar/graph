@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ext="http://musicbrainz.org/ns/ext-1.0#" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://musicbrainz.org/ns/mmd-1.0#" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://musicbrainz.org/ns/ext-1.0#" />
+  <xs:element name="metadata">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="release-list">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="release">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="title" type="xs:string" />
+                    <xs:element name="text-representation">
+                      <xs:complexType>
+                        <xs:attribute name="language" type="xs:string" use="required" />
+                        <xs:attribute name="script" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="asin" type="xs:string" />
+                    <xs:element name="artist">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="name" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="release-event-list">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="event">
+                            <xs:complexType>
+                              <xs:attribute name="date" type="xs:date" use="required" />
+                              <xs:attribute name="country" type="xs:string" use="required" />
+                              <xs:attribute name="label" type="xs:string" use="required" />
+                              <xs:attribute name="catno" type="xs:string" use="required" />
+                              <xs:attribute name="barcode" type="xs:unsignedLong" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="disc-list">
+                      <xs:complexType>
+                        <xs:attribute name="count" type="xs:unsignedByte" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="track-list">
+                      <xs:complexType>
+                        <xs:attribute name="count" type="xs:unsignedByte" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="id" type="xs:string" use="required" />
+                  <xs:attribute name="type" type="xs:string" use="required" />
+                  <xs:attribute ref="ext:score" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="count" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="offset" type="xs:unsignedByte" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

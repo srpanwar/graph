@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://musicbrainz.org/ns/mmd-1.0#" xmlns:ext="http://musicbrainz.org/ns/ext-1.0#">
+  <track-list count="34" offset="0">
+    <track id="c98bd54c-454e-4ad1-aa19-90eed19d07e7" ext:score="100">
+      <title>Hey There Delilah</title>
+      <duration>232560</duration>
+      <artist id="49576e42-fbbd-4d73-968d-93c8dcf7f065">
+        <name>Plain White T's</name>
+      </artist>
+      <release-list>
+        <release id="b2d4a971-4f86-4fc7-bdef-6e6012fbcc67">
+          <title>All That We Needed</title>
+          <track-list offset="12" count="13"/>
+        </release>
+      </release-list>
+    </track>
+    <track id="ecfd0df9-2143-4dbb-a63f-aa4e0dd3adb1" ext:score="100">
+      <title>Hey There Delilah (edit)</title>
+      <duration>232293</duration>
+      <artist id="49576e42-fbbd-4d73-968d-93c8dcf7f065">
+        <name>Plain White T's</name>
+      </artist>
+      <release-list>
+        <release id="05576cb2-2b85-4cb1-884b-abdc9ded589e">
+          <title>Hey There Delilah</title>
+          <track-list offset="0" count="6"/>
+        </release>
+      </release-list>
+    </track>
+  </track-list>
+</metadata>

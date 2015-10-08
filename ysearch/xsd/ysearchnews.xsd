@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.inktomi.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ysearchresponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nextpage" type="xs:string" />
+        <xs:element name="resultset_news">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="result">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="abstract" type="xs:string" />
+                    <xs:element name="clickurl" type="xs:string" />
+                    <xs:element name="date" type="xs:string" />
+                    <xs:element name="language" type="xs:string" />
+                    <xs:element name="source" type="xs:string" />
+                    <xs:element name="sourceurl" type="xs:string" />
+                    <xs:element name="time" type="xs:time" />
+                    <xs:element name="title" type="xs:string" />
+                    <xs:element name="url" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="count" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="start" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="totalhits" type="xs:unsignedShort" use="required" />
+            <xs:attribute name="deephits" type="xs:unsignedShort" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="responsecode" type="xs:unsignedByte" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

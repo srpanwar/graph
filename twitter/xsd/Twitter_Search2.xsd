@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://a9.com/-/spec/opensearch/1.1/" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://a9.com/-/spec/opensearch/1.1/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="itemsPerPage" type="xs:unsignedByte" />
+</xs:schema>

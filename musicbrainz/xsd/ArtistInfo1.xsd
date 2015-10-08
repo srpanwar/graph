@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://musicbrainz.org/ns/ext-1.0#" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://musicbrainz.org/ns/ext-1.0#" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:attribute name="score" type="xs:unsignedByte" />
+</xs:schema>

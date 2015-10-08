@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:media='http://search.yahoo.com/mrss/' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:gd='http://schemas.google.com/g/2005' xmlns:yt='http://gdata.youtube.com/schemas/2007'>
+  <id>http://gdata.youtube.com/feeds/api/videos</id>
+  <updated>2009-06-13T01:02:19.179Z</updated>
+  <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+  <title type='text'>YouTube Videos matching query: football soccer</title>
+  <logo>http://www.youtube.com/img/pic_youtubelogo_123x63.gif</logo>
+  <link rel='alternate' type='text/html' href='http://www.youtube.com'/>
+  <link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos'/>
+  <link rel='http://schemas.google.com/g/2005#batch' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/batch'/>
+  <link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos?q=football+soccer&amp;start-index=1&amp;max-results=2'/>
+  <link rel='next' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos?q=football+soccer&amp;start-index=3&amp;max-results=2'/>
+  <author>
+    <name>YouTube</name>
+    <uri>http://www.youtube.com/</uri>
+  </author>
+  <generator version='2.0' uri='http://gdata.youtube.com/'>YouTube data API</generator>
+  <openSearch:totalResults>269933</openSearch:totalResults>
+  <openSearch:startIndex>1</openSearch:startIndex>
+  <openSearch:itemsPerPage>2</openSearch:itemsPerPage>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/api/videos/6jHEq5oGLXE</id>
+    <published>2006-03-14T02:05:07.000Z</published>
+    <updated>2009-06-12T15:34:06.000Z</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='funny soccer football'/>
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Sports' label='Sports'/>
+    <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='How To Money'/>
+    <title type='text'>Funny Football/Soccer</title>
+    <content type='text'>VOTE NOW! www.FamilyGuyVSTheSimpsons.tk Video Courtesy Of</content>
+    <link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=6jHEq5oGLXE'/>
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/6jHEq5oGLXE/responses'/>
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/6jHEq5oGLXE/related'/>
+    <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html' href='http://m.youtube.com/details?v=6jHEq5oGLXE'/>
+    <link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/6jHEq5oGLXE'/>
+    <author>
+      <name>southparkosm</name>
+      <uri>http://gdata.youtube.com/feeds/api/users/southparkosm</uri>
+    </author>
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/6jHEq5oGLXE/comments' countHint='3214'/>
+    </gd:comments>
+    <yt:location>NJ</yt:location>
+    <media:group>
+      <media:category label='Sports' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Sports</media:category>
+      <media:content url='rtsp://rtsp2.youtube.com/CiILENy73wIaGQlxLQaaq8Qx6hMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' isDefault='true' expression='full' duration='205' yt:format='1'/>
+      <media:content url='rtsp://rtsp2.youtube.com/CiILENy73wIaGQlxLQaaq8Qx6hMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='205' yt:format='6'/>
+      <media:description type='plain'>VOTE NOW! www.FamilyGuyVSTheSimpsons.tk Video Courtesy Of</media:description>
+      <media:keywords>funny soccer football, How To Money</media:keywords>
+      <media:player url='http://www.youtube.com/watch?v=6jHEq5oGLXE'/>
+      <media:restriction type='country' relationship='deny'>FR GF GP MC MQ PF RE TF</media:restriction>
+      <media:thumbnail url='http://i.ytimg.com/vi/6jHEq5oGLXE/2.jpg' height='90' width='120' time='00:01:42.500'/>
+      <media:thumbnail url='http://i.ytimg.com/vi/6jHEq5oGLXE/1.jpg' height='90' width='120' time='00:00:51.250'/>
+      <media:thumbnail url='http://i.ytimg.com/vi/6jHEq5oGLXE/3.jpg' height='90' width='120' time='00:02:33.750'/>
+      <media:thumbnail url='http://i.ytimg.com/vi/6jHEq5oGLXE/0.jpg' height='240' width='320' time='00:01:42.500'/>
+      <media:title type='plain'>Funny Football/Soccer</media:title>
+      <yt:duration seconds='205'/>
+    </media:group>
+    <yt:noembed/>
+    <gd:rating average='4.696496' max='5' min='1' numRaters='6906' rel='http://schemas.google.com/g/2005#overall'/>
+    <yt:recorded>2006-03-13</yt:recorded>
+    <yt:statistics favoriteCount='14138' viewCount='7005732'/>
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/api/videos/138CaUjCorU</id>
+    <published>2008-07-06T22:53:57.000Z</published>
+    <updated>2009-06-12T20:17:23.000Z</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='words'/>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='hotforwords'/>
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Entertainment' label='Entertainment'/>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='intelligence'/>
+    <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='hot'/>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='etymology'/>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='euro'/>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='is'/>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='movies'/>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='teacher'/>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='for'/>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='football'/>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='bank'/>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='soccer'/>
+    <title type='text'>Football - Soccer</title>
+    <content type='text'>www.hotforwords.com to score a goal. Soccer requested by alleTiger, sportcrazy13, aLx, tohellwithit2745, tricovictus, jyangchi, arthur07, nvalline, prospero811, djsalbro, huckster, acciocoolusername, yeeeaahhbaby, renegade_69, maxedgy1, eastcoast007, 1der, micheldiego, rigo611, okay4now, plutten, capman911, laguss, annuddermale, lalorocks86 and gomezzz Ending music by: www.ronaldjenkees.com</content>
+    <link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=138CaUjCorU'/>
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/138CaUjCorU/responses'/>
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/138CaUjCorU/related'/>
+    <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html' href='http://m.youtube.com/details?v=138CaUjCorU'/>
+    <link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/138CaUjCorU'/>
+    <author>
+      <name>hotforwords</name>
+      <uri>http://gdata.youtube.com/feeds/api/users/hotforwords</uri>
+    </author>
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/138CaUjCorU/comments' countHint='2951'/>
+    </gd:comments>
+    <media:group>
+      <media:category label='Entertainment' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Entertainment</media:category>
+      <media:content url='http://www.youtube.com/v/138CaUjCorU&amp;f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='236' yt:format='5'/>
+      <media:content url='rtsp://rtsp2.youtube.com/CiILENy73wIaGQm1osJIaQJ_1xMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='236' yt:format='1'/>
+      <media:content url='rtsp://rtsp2.youtube.com/CiILENy73wIaGQm1osJIaQJ_1xMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='236' yt:format='6'/>
+      <media:description type='plain'>www.hotforwords.com to score a goal. Soccer requested by alleTiger, sportcrazy13, aLx, tohellwithit2745, tricovictus, jyangchi, arthur07, nvalline, prospero811, djsalbro, huckster, acciocoolusername, yeeeaahhbaby, renegade_69, maxedgy1, eastcoast007, 1der, micheldiego, rigo611, okay4now, plutten, capman911, laguss, annuddermale, lalorocks86 and gomezzz Ending music by: www.ronaldjenkees.com</media:description>
+      <media:keywords>movies, bank, hotforwords, hot, for, words, intelligence, is, teacher, etymology, soccer, football, euro</media:keywords>
+      <media:player url='http://www.youtube.com/watch?v=138CaUjCorU'/>
+      <media:thumbnail url='http://i.ytimg.com/vi/138CaUjCorU/2.jpg' height='90' width='120' time='00:01:58'/>
+      <media:thumbnail url='http://i.ytimg.com/vi/138CaUjCorU/1.jpg' height='90' width='120' time='00:00:59'/>
+      <media:thumbnail url='http://i.ytimg.com/vi/138CaUjCorU/3.jpg' height='90' width='120' time='00:02:57'/>
+      <media:thumbnail url='http://i.ytimg.com/vi/138CaUjCorU/0.jpg' height='240' width='320' time='00:01:58'/>
+      <media:title type='plain'>Football - Soccer</media:title>
+      <yt:duration seconds='236'/>
+    </media:group>
+    <gd:rating average='4.487839' max='5' min='1' numRaters='4975' rel='http://schemas.google.com/g/2005#overall'/>
+    <yt:statistics favoriteCount='918' viewCount='1636988'/>
+  </entry>
+</feed>

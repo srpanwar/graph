@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3D1594EC-7C19-4491-861D-9FCD471E1100}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>mashup</RootNamespace>
+    <AssemblyName>mashup</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\bingsearch\bingsearch.csproj">
+      <Project>{225E8740-F69B-4563-B96B-A068B2064E17}</Project>
+      <Name>bingsearch</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\digg\digg.csproj">
+      <Project>{8435A712-6BAE-4287-A646-D2347F8E64A2}</Project>
+      <Name>digg</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eventful\eventful.csproj">
+      <Project>{FA21016B-3120-42C8-A4DA-B4CB4412A88E}</Project>
+      <Name>eventful</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\grooveshark\grooveshark.csproj">
+      <Project>{EBB8F667-9A10-4E3A-BEB4-DAF60D0C8743}</Project>
+      <Name>grooveshark</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\imeem\imeem.csproj">
+      <Project>{DCAD951C-0263-4341-B92E-6FDA1C77FE0A}</Project>
+      <Name>imeem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\lastfm\lastfm.csproj">
+      <Project>{9E573603-8274-4245-AAB5-F3273E9DC053}</Project>
+      <Name>lastfm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\lyricwiki\lyricwiki.csproj">
+      <Project>{1A6408C4-652C-495F-A406-F5732B3E9E02}</Project>
+      <Name>lyricwiki</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\meetup\meetup.csproj">
+      <Project>{554D4A18-56A4-4EC7-9371-1960A4B99596}</Project>
+      <Name>meetup</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\musicbrainz\musicbrainz.csproj">
+      <Project>{0FEDF1A8-830D-4BF7-BCFB-B22123779B85}</Project>
+      <Name>musicbrainz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OmukEngine\OmukEngine.csproj">
+      <Project>{C10FBAD6-66C9-4272-AF42-E6560C563F24}</Project>
+      <Name>OmukEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\rottentomatoes\rottentomatoes.csproj">
+      <Project>{CB089D50-AEFB-46A0-A09A-D035E63CAB92}</Project>
+      <Name>rottentomatoes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\twitter\twitter.csproj">
+      <Project>{E7B2F00E-AE51-457B-A8B9-43D3507D2322}</Project>
+      <Name>twitter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\wikipedia\wikipedia.csproj">
+      <Project>{1F12C5DC-15D9-4030-B411-D35160373559}</Project>
+      <Name>wikipedia</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WordNet\Dictionary.csproj">
+      <Project>{EBB56DDB-130C-4D0D-84B9-A413FEDAF3D2}</Project>
+      <Name>Dictionary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\youtube\youtube.csproj">
+      <Project>{A958C0CF-EB87-41AF-A494-7B3A6B8725AA}</Project>
+      <Name>youtube</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ysearch\ysearch.csproj">
+      <Project>{DC4BE9CA-7A19-4D14-ABAC-8749D6D64C33}</Project>
+      <Name>ysearch</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lfm status="ok">
+  <results for="believe" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">
+    <opensearch:Query role="request" searchTerms="believe" startPage="1"/>
+    <opensearch:totalResults>991</opensearch:totalResults>
+    <opensearch:startIndex>0</opensearch:startIndex>
+    <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+    <albummatches>
+      <album>
+        <name>Make Believe</name>
+        <artist>Weezer</artist>
+        <id>2025180</id>
+        <url>http://www.last.fm/music/Weezer/Make+Believe</url>
+        <image size="small">http://userserve-ak.last.fm/serve/34s/8673675.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64s/8673675.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/8673675.jpg</image>
+        <streamable>0</streamable>
+      </album>
+      <album>
+        <name>Believe</name>
+        <artist>Disturbed</artist>
+        <id>1418894</id>
+        <url>http://www.last.fm/music/Disturbed/Believe</url>
+        <image size="small">http://userserve-ak.last.fm/serve/34s/8634625.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64s/8634625.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/8634625.jpg</image>
+        <streamable>0</streamable>
+      </album>
+      <album>
+        <name>Don't Believe the Truth</name>
+        <artist>Oasis</artist>
+        <id>2024297</id>
+        <url>http://www.last.fm/music/Oasis/Don%27t+Believe+the+Truth</url>
+        <image size="small">http://userserve-ak.last.fm/serve/34s/23321743.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64s/23321743.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/23321743.jpg</image>
+        <streamable>0</streamable>
+      </album>
+      <album>
+        <name>Believe</name>
+        <artist>Cher</artist>
+        <id>2026126</id>
+        <url>http://www.last.fm/music/Cher/Believe</url>
+        <image size="small">http://userserve-ak.last.fm/serve/34s/8674593.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64s/8674593.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/8674593.jpg</image>
+        <streamable>0</streamable>
+      </album>
+      <album>
+        <name>Dream to Make Believe</name>
+        <artist>Armor for Sleep</artist>
+        <id>2029327</id>
+        <url>http://www.last.fm/music/Armor+for+Sleep/Dream+to+Make+Believe</url>
+        <image size="small">http://userserve-ak.last.fm/serve/34s/19872927.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64s/19872927.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/19872927.jpg</image>
+        <streamable>0</streamable>
+      </album>
+      <album>
+        <name>Believe</name>
+        <artist>4 Strings</artist>
+        <id>2031897</id>
+        <url>http://www.last.fm/music/4+Strings/Believe</url>
+        <image size="small">http://userserve-ak.last.fm/serve/34s/8679517.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64s/8679517.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/8679517.jpg</image>
+        <streamable>0</streamable>
+      </album>
+      <album>
+        <name>If You Can Believe Your Eyes and Ears</name>
+        <artist>The Mamas &amp; The Papas</artist>
+        <id>2037402</id>
+        <url>http://www.last.fm/music/The%2BMamas%2B%2526%2BThe%2BPapas/If+You+Can+Believe+Your+Eyes+and+Ears</url>
+        <image size="small">http://userserve-ak.last.fm/serve/34s/8683671.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64s/8683671.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/8683671.jpg</image>
+        <streamable>0</streamable>
+      </album>
+      <album>
+        <name>Believe</name>
+        <artist>Crematory</artist>
+        <id>2370614</id>
+        <url>http://www.last.fm/music/Crematory/Believe</url>
+        <image size="small">http://userserve-ak.last.fm/serve/34s/8769997.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64s/8769997.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/8769997.jpg</image>
+        <streamable>0</streamable>
+      </album>
+      <album>
+        <name>Do You Believe in Magic</name>
+        <artist>The Lovin' Spoonful</artist>
+        <id>2127956</id>
+        <url>http://www.last.fm/music/The+Lovin%27+Spoonful/Do+You+Believe+in+Magic</url>
+        <image size="small">http://userserve-ak.last.fm/serve/34s/11787461.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64s/11787461.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/11787461.jpg</image>
+        <streamable>0</streamable>
+      </album>
+      <album>
+        <name>I Wouldn't Believe Your Radio</name>
+        <artist>Stereophonics</artist>
+        <id>2304877</id>
+        <url>http://www.last.fm/music/Stereophonics/I+Wouldn%27t+Believe+Your+Radio</url>
+        <image size="small">http://images.amazon.com/images/P/B00001ZU00.02._SCMZZZZZZZ_.jpg</image>
+        <image size="medium">http://images.amazon.com/images/P/B00001ZU00.02._SCMZZZZZZZ_.jpg</image>
+        <image size="large">http://images.amazon.com/images/P/B00001ZU00.02._SCMZZZZZZZ_.jpg</image>
+        <streamable>0</streamable>
+      </album>
+      <album>
+        <name>Reason To Believe</name>
+        <artist>Pennywise</artist>
+        <id>3766885</id>
+        <url>http://www.last.fm/music/Pennywise/Reason+To+Believe</url>
+        <image size="small">http://userserve-ak.last.fm/serve/34s/5343882.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64s/5343882.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/5343882.jpg</image>
+        <streamable>0</streamable>
+      </album>
+      <album>
+        <name>I Believe</name>
+        <artist>Lange</artist>
+        <id>2413318</id>
+        <url>http://www.last.fm/music/Lange/I+Believe</url>
+        <image size="small">http://userserve-ak.last.fm/serve/34s/8785537.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64s/8785537.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/8785537.jpg</image>
+        <streamable>0</streamable>
+      </album>
+      <album>
+        <name>Believe (disc 2)</name>
+        <artist>Airwave</artist>
+        <id>2271619</id>
+        <url>http://www.last.fm/music/Airwave/Believe+%28disc+2%29</url>
+        <image size="small"/>
+        <image size="medium"/>
+        <image size="large"/>
+        <streamable>0</streamable>
+      </album>
+      <album>
+        <name>Believe in Nothing</name>
+        <artist>Paradise Lost</artist>
+        <id>2194165</id>
+        <url>http://www.last.fm/music/Paradise+Lost/Believe+in+Nothing</url>
+        <image size="small">http://userserve-ak.last.fm/serve/34s/28230145.png</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64s/28230145.png</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/28230145.png</image>
+        <streamable>0</streamable>
+      </album>
+      <album>
+        <name>Heart to Believe</name>
+        <artist>Itchy Poopzkid</artist>
+        <id>3076526</id>
+        <url>http://www.last.fm/music/Itchy+Poopzkid/Heart+to+Believe</url>
+        <image size="small">http://userserve-ak.last.fm/serve/34s/23721441.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64s/23721441.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/23721441.jpg</image>
+        <streamable>0</streamable>
+      </album>
+      <album>
+        <name>Reason to Believe (The Best Of)</name>
+        <artist>Tim Hardin</artist>
+        <id>2389266</id>
+        <url>http://www.last.fm/music/Tim+Hardin/Reason+to+Believe+%28The+Best+Of%29</url>
+        <image size="small">http://images.amazon.com/images/P/B000001FNP.01.MZZZZZZZ.jpg</image>
+        <image size="medium">http://images.amazon.com/images/P/B000001FNP.01.MZZZZZZZ.jpg</image>
+        <image size="large">http://images.amazon.com/images/P/B000001FNP.01.MZZZZZZZ.jpg</image>
+        <streamable>0</streamable>
+      </album>
+      <album>
+        <name>The Power to Believe</name>
+        <artist>King Crimson</artist>
+        <id>2329148</id>
+        <url>http://www.last.fm/music/King+Crimson/The+Power+to+Believe</url>
+        <image size="small">http://userserve-ak.last.fm/serve/34s/26774245.png</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64s/26774245.png</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/26774245.png</image>
+        <streamable>0</streamable>
+      </album>
+      <album>
+        <name>Do you Believe in Westworld</name>
+        <artist>Westbam</artist>
+        <id>2393387</id>
+        <url>http://www.last.fm/music/Westbam/Do+you+Believe+in+Westworld</url>
+        <image size="small">http://userserve-ak.last.fm/serve/34s/5119724.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64s/5119724.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/5119724.jpg</image>
+        <streamable>0</streamable>
+      </album>
+      <album>
+        <name>I Believe in a Thing Called Love</name>
+        <artist>The Darkness</artist>
+        <id>13492</id>
+        <url>http://www.last.fm/music/The+Darkness/I+Believe+in+a+Thing+Called+Love</url>
+        <image size="small">http://userserve-ak.last.fm/serve/34s/8598177.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64s/8598177.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/8598177.jpg</image>
+        <streamable>0</streamable>
+      </album>
+      <album>
+        <name>Believe What We Tell You</name>
+        <artist>The Sleeping</artist>
+        <id>2211286</id>
+        <url>http://www.last.fm/music/The+Sleeping/Believe+What+We+Tell+You</url>
+        <image size="small">http://userserve-ak.last.fm/serve/34s/8731465.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64s/8731465.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/8731465.jpg</image>
+        <streamable>0</streamable>
+      </album>
+    </albummatches>
+  </results>
+</lfm>

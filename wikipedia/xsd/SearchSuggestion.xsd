@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://opensearch.org/searchsuggest2" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="SearchSuggestion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Query" type="xs:string" />
+        <xs:element name="Section">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="Item">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Text" type="xs:string" />
+                    <xs:element name="Description" type="xs:string" />
+                    <xs:element name="Url" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="version" type="xs:decimal" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

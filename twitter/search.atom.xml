@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html [
+  <!ENTITY % htmlDTD PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
+  %htmlDTD;
+  <!ENTITY % globalDTD
+    SYSTEM "chrome://global/locale/global.dtd">
+  %globalDTD;
+  <!ENTITY % feedDTD
+    SYSTEM "chrome://browser/locale/feeds/subscribe.dtd">
+  %feedDTD;
+]>
+<?xml-stylesheet href="search.atom_files/global.css" type="text/css"?>
+<html id="feedHandler" xmlns="http://www.w3.org/1999/xhtml" xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <head>
+    <title>devo - Twitter Search</title>
+    <link rel="stylesheet" href="search.atom_files/subscribe.css" type="text/css" media="all"/>
+    <script type="application/x-javascript" src="search.atom_files/subscribe.js"/>
+  </head>
+  <body onload="SubscribeHandler.writeContent();" onunload="SubscribeHandler.uninit();">
+    <div id="feedHeaderContainer">
+      <div id="feedHeader" dir="ltr" class="feedBackground" firstrun="true">
+        <div id="feedIntroText">
+          <p id="feedSubscriptionInfo1">This is a "feed" of frequently changing content on this site.</p>
+          <p id="feedSubscriptionInfo2">You can subscribe to this feed to receive updates when this content changes.</p>
+        </div>
+
+        <!-- XXXmano this can't have any whitespace in it.  Otherwise you would see
+     how much XUL-in-XHTML sucks, see bug 348830 -->
+        <div id="feedSubscribeLine">
+          <xul:vbox>
+            <xul:hbox align="center">
+              <xul:description id="subscribeUsingDescription" value="Subscribe to this feed using"/>
+              <xul:menulist id="handlersMenuList" onfocus="setTimeout(SubscribeHandler.menuListFocused,0,this);" aria-labelledby="subscribeUsingDescription" sizetopopup="pref" value="" image="chrome://browser/skin/page-livemarks.png" label="Live Bookmarks" description="">
+                <xul:menupopup menugenerated="true" id="handlersMenuPopup">
+                  <xul:menuitem id="liveBookmarksMenuItem" label="Live Bookmarks" class="menuitem-iconic" image="chrome://browser/skin/page-livemarks.png" selected="true"/>
+                  <xul:menuseparator/>
+                  <xul:menuitem id="selectedAppMenuItem" class="menuitem-iconic" handlerType="client" hidden="true"/>
+                  <xul:menuitem id="chooseApplicationMenuItem" class="menuitem-iconic" label="Choose Application…"/>
+                  <xul:menuseparator/>
+                  <xul:menuitem class="menuitem-iconic" label="Bloglines" handlerType="web" webhandlerurl="http://www.bloglines.com/login?r=/sub/%s"/>
+                  <xul:menuitem class="menuitem-iconic" label="My Yahoo" handlerType="web" webhandlerurl="http://add.my.yahoo.com/rss?url=%s"/>
+                  <xul:menuitem class="menuitem-iconic" label="Google" handlerType="web" webhandlerurl="http://fusion.google.com/add?feedurl=%s"/>
+                </xul:menupopup>
+              </xul:menulist>
+            </xul:hbox>
+            <xul:hbox>
+              <xul:checkbox id="alwaysUse" label="Always use Live Bookmarks to subscribe to feeds."/>
+            </xul:hbox>
+            <xul:hbox align="center">
+              <xul:spacer flex="1"/>
+              <xul:button label="Subscribe Now" id="subscribeButton"/>
+            </xul:hbox>
+          </xul:vbox>
+        </div>
+      </div>
+    </div>
+
+    <script type="application/x-javascript">
+      SubscribeHandler.init();
+    </script>
+
+    <div id="feedBody">
+      <div id="feedTitle">
+        <a id="feedTitleLink">
+          <img id="feedTitleImage"/>
+        </a>
+        <div id="feedTitleContainer">
+          <h1 id="feedTitleText">devo - Twitter Search</h1>
+          <h2 id="feedSubtitleText"/>
+        </div>
+      </div>
+      <div id="feedContent">
+        <div class="entry">
+          <h3>
+            <a href="http://twitter.com/woxy_vintage/statuses/2001197447">03:08 Devo - Through Being Cool</a>
+            <div class="lastUpdated">Tuesday, June 02, 2009 12:07 AM</div>
+          </h3>
+          <div xml:base="http://search.twitter.com/search.atom?lang=en&amp;q=devo" class="feedEntryContent">
+            03:08 <B xmlns="">Devo</B> - Through Being Cool
+          </div>
+        </div>
+        <div style="clear: both;"/>
+        <div class="entry">
+          <h3>
+            <a href="http://twitter.com/devonboo/statuses/2001157462">
+              Feeling 100% better. just no more sweets.
+              Listening to my music that my BFF Katie gave me. Love you babe
+              -Devo.
+            </a>
+            <div class="lastUpdated">Tuesday, June 02, 2009 12:00 AM</div>
+          </h3>
+          <div xml:base="http://search.twitter.com/search.atom?lang=en&amp;q=devo" class="feedEntryContent">
+            Feeling 100% better. just no more sweets.
+            Listening to my music that my BFF Katie gave me. Love you babe
+            -<B xmlns="">Devo</B>.
+          </div>
+        </div>
+        <div style="clear: both;"/>
+        <div class="entry">
+          <h3>
+            <a href="http://twitter.com/xoxmillyxox/statuses/2001011714">@sonnyjoeflangan haha have fun. and devo, school cancelled the excursion to mca, im like sooo upset :(</a>
+            <div class="lastUpdated">Monday, June 01, 2009 11:35 PM</div>
+          </h3>
+          <div xml:base="http://search.twitter.com/search.atom?lang=en&amp;q=devo" class="feedEntryContent">
+            <A xmlns="" href="http://twitter.com/sonnyjoeflangan">@sonnyjoeflangan</A> haha have fun. and <B xmlns="">devo</B>, school cancelled the excursion to mca, im like sooo upset :(
+          </div>
+        </div>
+        <div style="clear: both;"/>
+        <div class="entry">
+          <h3>
+            <a href="http://twitter.com/empoprises/statuses/2000979329">Once this song (Secret Agent Man, Devo) ends, I'm going to listen to Conan (the first part).</a>
+            <div class="lastUpdated">Monday, June 01, 2009 11:29 PM</div>
+          </h3>
+          <div xml:base="http://search.twitter.com/search.atom?lang=en&amp;q=devo" class="feedEntryContent">
+            Once this song (Secret Agent Man, <B xmlns="">Devo</B>) ends, I'm going to listen to Conan (the first part).
+          </div>
+        </div>
+        <div style="clear: both;"/>
+        <div class="entry">
+          <h3>
+            <a href="http://twitter.com/glove2009/statuses/2000973543">Well since we r home alone..."Come on baby lets get wet!" lol lol (that old school BELL, BIV, DEVO)</a>
+            <div class="lastUpdated">Monday, June 01, 2009 11:28 PM</div>
+          </h3>
+          <div xml:base="http://search.twitter.com/search.atom?lang=en&amp;q=devo" class="feedEntryContent">
+            Well since we r home alone..."Come on baby lets get wet!" lol lol (that old school BELL, BIV, <B xmlns="">DEVO</B>)
+          </div>
+        </div>
+        <div style="clear: both;"/>
+        <div class="entry">
+          <h3>
+            <a href="http://twitter.com/crazybat/statuses/2000821786">Devo is underrated. So are brussels sprouts, but I digress... ♫ http://blip.fm/~7h7xc</a>
+            <div class="lastUpdated">Monday, June 01, 2009 11:03 PM</div>
+          </h3>
+          <div xml:base="http://search.twitter.com/search.atom?lang=en&amp;q=devo" class="feedEntryContent">
+            <B xmlns="">Devo</B> is underrated. So are brussels sprouts, but I digress... ♫ <A xmlns="" href="http://blip.fm/~7h7xc">http://blip.fm/~7h7xc</A>
+          </div>
+        </div>
+        <div style="clear: both;"/>
+        <div class="entry">
+          <h3>
+            <a href="http://twitter.com/joshrussell/statuses/2000775912">@caaaaaaitlin devo days without dat iplone</a>
+            <div class="lastUpdated">Monday, June 01, 2009 10:56 PM</div>
+          </h3>
+          <div xml:base="http://search.twitter.com/search.atom?lang=en&amp;q=devo" class="feedEntryContent">
+            <A xmlns="" href="http://twitter.com/caaaaaaitlin">@caaaaaaitlin</A> <B xmlns="">devo</B> days without dat iplone
+          </div>
+        </div>
+        <div style="clear: both;"/>
+        <div class="entry">
+          <h3>
+            <a href="http://twitter.com/jenredstar/statuses/2000748708">Started to Try to sleep 2 hours ago and has yet to suceed. Insomnia + screaming Devo x 4 nights of sub-par sleep = burnout</a>
+            <div class="lastUpdated">Monday, June 01, 2009 10:51 PM</div>
+          </h3>
+          <div xml:base="http://search.twitter.com/search.atom?lang=en&amp;q=devo" class="feedEntryContent">
+            Started to Try to sleep 2 hours ago and has yet to suceed. Insomnia + screaming <B xmlns="">Devo</B> x 4 nights of sub-par sleep = burnout
+          </div>
+        </div>
+        <div style="clear: both;"/>
+        <div class="entry">
+          <h3>
+            <a href="http://twitter.com/cjethmalani/statuses/2000572374">Aamir Khan does an Atithi Devo Bhava for Incredible India http://tinyurl.com/ncssa7</a>
+            <div class="lastUpdated">Monday, June 01, 2009 10:25 PM</div>
+          </h3>
+          <div xml:base="http://search.twitter.com/search.atom?lang=en&amp;q=devo" class="feedEntryContent">
+            Aamir Khan does an Atithi <B xmlns="">Devo</B> Bhava for Incredible India <A xmlns="" href="http://tinyurl.com/ncssa7">http://tinyurl.com/ncssa7</A>
+          </div>
+        </div>
+        <div style="clear: both;"/>
+        <div class="entry">
+          <h3>
+            <a href="http://twitter.com/carpenterco/statuses/2000502699">Dell Commercial Leads to New Devo Album - Spinner: It's a real sing-along. It'll be a good karaoke tune... http://bit.ly/T7aiY</a>
+            <div class="lastUpdated">Monday, June 01, 2009 10:15 PM</div>
+          </h3>
+          <div xml:base="http://search.twitter.com/search.atom?lang=en&amp;q=devo" class="feedEntryContent">
+            Dell Commercial Leads to New <B xmlns="">Devo</B> Album - Spinner: It's a real sing-along. It'll be a good karaoke tune... <A xmlns="" href="http://bit.ly/T7aiY">http://bit.ly/T7aiY</A>
+          </div>
+        </div>
+        <div style="clear: both;"/>
+        <div class="entry">
+          <h3>
+            <a href="http://twitter.com/andilynne1214/statuses/2000498245">Bedtime! Just had an amazing devo time with the beautiful women of camp peniel.</a>
+            <div class="lastUpdated">Monday, June 01, 2009 10:15 PM</div>
+          </h3>
+          <div xml:base="http://search.twitter.com/search.atom?lang=en&amp;q=devo" class="feedEntryContent">
+            Bedtime! Just had an amazing <B xmlns="">devo</B> time with the beautiful women of camp peniel.
+          </div>
+        </div>
+        <div style="clear: both;"/>
+        <div class="entry">
+          <h3>
+            <a href="http://twitter.com/fatgirlspeaks/statuses/2000493446">Beautiful world by DEVO</a>
+            <div class="lastUpdated">Monday, June 01, 2009 10:14 PM</div>
+          </h3>
+          <div xml:base="http://search.twitter.com/search.atom?lang=en&amp;q=devo" class="feedEntryContent">
+            Beautiful world by <B xmlns="">DEVO</B>
+          </div>
+        </div>
+        <div style="clear: both;"/>
+        <div class="entry">
+          <h3>
+            <a href="http://twitter.com/djadam12/statuses/2000363312">@jesthestar its the singer from Devo</a>
+            <div class="lastUpdated">Monday, June 01, 2009 9:57 PM</div>
+          </h3>
+          <div xml:base="http://search.twitter.com/search.atom?lang=en&amp;q=devo" class="feedEntryContent">
+            <A xmlns="" href="http://twitter.com/jesthestar">@jesthestar</A> its the singer from <B xmlns="">Devo</B>
+          </div>
+        </div>
+        <div style="clear: both;"/>
+        <div class="entry">
+          <h3>
+            <a href="http://twitter.com/jesthestar/statuses/2000356525">@djadam12 That Devo hat is fantastic</a>
+            <div class="lastUpdated">Monday, June 01, 2009 9:56 PM</div>
+          </h3>
+          <div xml:base="http://search.twitter.com/search.atom?lang=en&amp;q=devo" class="feedEntryContent">
+            <A xmlns="" href="http://twitter.com/djadam12">@djadam12</A> That <B xmlns="">Devo</B> hat is fantastic
+          </div>
+        </div>
+        <div style="clear: both;"/>
+        <div class="entry">
+          <h3>
+            <a href="http://twitter.com/SeanTODonnell/statuses/2000293731">just watched Pearl Jam completely rip off Devo's "Gut Feeling". Weak.</a>
+            <div class="lastUpdated">Monday, June 01, 2009 9:48 PM</div>
+          </h3>
+          <div xml:base="http://search.twitter.com/search.atom?lang=en&amp;q=devo" class="feedEntryContent">
+            just watched Pearl Jam completely rip off <B xmlns="">Devo</B>'s "Gut Feeling". Weak.
+          </div>
+        </div>
+        <div style="clear: both;"/>
+      </div>
+    </div>
+  </body>
+</html>

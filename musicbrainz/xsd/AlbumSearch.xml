@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://musicbrainz.org/ns/mmd-1.0#" xmlns:ext="http://musicbrainz.org/ns/ext-1.0#">
+  <release-list count="2" offset="0">
+    <release id="0e104952-9b68-4821-8643-fa1b6a80ccad" type="Album Official" ext:score="100">
+      <title>Big Bad World</title>
+      <text-representation language="ENG" script="Latn"/>
+      <artist id="b0ab173f-a893-4fe0-b948-8671f79d052a">
+        <name>Diesel</name>
+      </artist>
+      <disc-list count="1"/>
+      <track-list count="14"/>
+    </release>
+    <release id="deb8f6fa-db94-4a19-b489-d0f30f6ddd45" type="Album Official" ext:score="100">
+      <title>Big Bad World</title>
+      <text-representation language="ENG" script="Latn"/>
+      <asin>B001DDCVBO</asin>
+      <artist id="49576e42-fbbd-4d73-968d-93c8dcf7f065">
+        <name>Plain White T's</name>
+      </artist>
+      <release-event-list>
+        <event date="2008-09-23" country="US" label="Hollywood Records" catno="D000218402" barcode="50087124090"/>
+      </release-event-list>
+      <disc-list count="1"/>
+      <track-list count="10"/>
+    </release>
+  </release-list>
+</metadata>

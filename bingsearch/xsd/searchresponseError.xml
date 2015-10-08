@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?pageview_candidate?>
+<SearchResponse xmlns="http://schemas.microsoft.com/LiveSearch/2008/04/XML/element" Version="2.0">
+  <Query>
+    <SearchTerms>hello</SearchTerms>
+  </Query>
+  <Errors>
+    <Error>
+      <Code>1002</Code>
+      <Message>Parameter has invalid value.</Message>
+      <Parameter>SearchRequest.AppId</Parameter>
+      <Value>52447E790CBE691A81FDFF596A4A976BB4FD39C</Value>
+      <HelpUrl>http://msdn.microsoft.com/en-us/library/dd251042.aspx</HelpUrl>
+    </Error>
+  </Errors>
+</SearchResponse>

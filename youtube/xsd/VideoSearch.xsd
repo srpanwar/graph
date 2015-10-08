@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:gd="http://schemas.google.com/g/2005" xmlns:yt="http://gdata.youtube.com/schemas/2007" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:media="http://search.yahoo.com/mrss/" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.w3.org/2005/Atom" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://a9.com/-/spec/opensearchrss/1.0/" />
+  <xs:import namespace="http://schemas.google.com/g/2005" />
+  <xs:import namespace="http://gdata.youtube.com/schemas/2007" />
+  <xs:import namespace="http://search.yahoo.com/mrss/" />
+  <xs:element name="feed">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="id" type="xs:string" />
+        <xs:element name="updated" type="xs:dateTime" />
+        <xs:element name="category">
+          <xs:complexType>
+            <xs:attribute name="scheme" type="xs:string" use="required" />
+            <xs:attribute name="term" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="title">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute name="type" type="xs:string" use="required" />
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="logo" type="xs:string" />
+        <xs:element maxOccurs="unbounded" name="link">
+          <xs:complexType>
+            <xs:attribute name="rel" type="xs:string" use="required" />
+            <xs:attribute name="type" type="xs:string" use="required" />
+            <xs:attribute name="href" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="author">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string" />
+              <xs:element name="uri" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="generator">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute name="version" type="xs:decimal" use="required" />
+                <xs:attribute name="uri" type="xs:string" use="required" />
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="openSearch:totalResults" />
+        <xs:element ref="openSearch:startIndex" />
+        <xs:element ref="openSearch:itemsPerPage" />
+        <xs:element maxOccurs="unbounded" name="entry">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" type="xs:string" />
+              <xs:element name="published" type="xs:dateTime" />
+              <xs:element name="updated" type="xs:dateTime" />
+              <xs:element maxOccurs="unbounded" name="category">
+                <xs:complexType>
+                  <xs:attribute name="scheme" type="xs:string" use="required" />
+                  <xs:attribute name="term" type="xs:string" use="required" />
+                  <xs:attribute name="label" type="xs:string" use="optional" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="title">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="type" type="xs:string" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="content">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="type" type="xs:string" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element maxOccurs="unbounded" name="link">
+                <xs:complexType>
+                  <xs:attribute name="rel" type="xs:string" use="required" />
+                  <xs:attribute name="type" type="xs:string" use="required" />
+                  <xs:attribute name="href" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="author">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="name" type="xs:string" />
+                    <xs:element name="uri" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element ref="gd:comments" />
+              <xs:element minOccurs="0" ref="yt:location" />
+              <xs:element ref="media:group" />
+              <xs:element minOccurs="0" ref="yt:noembed" />
+              <xs:element ref="gd:rating" />
+              <xs:element minOccurs="0" ref="yt:recorded" />
+              <xs:element ref="yt:statistics" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

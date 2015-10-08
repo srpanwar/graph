@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="lfm">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="album">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string" />
+              <xs:element name="artist" type="xs:string" />
+              <xs:element name="id" type="xs:unsignedInt" />
+              <xs:element name="mbid" type="xs:string" />
+              <xs:element name="url" type="xs:string" />
+              <xs:element name="releasedate" type="xs:string" />
+              <xs:element maxOccurs="unbounded" name="image">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="size" type="xs:string" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="listeners" type="xs:unsignedInt" />
+              <xs:element name="playcount" type="xs:unsignedInt" />
+              <xs:element name="toptags">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="tag">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="name" type="xs:string" />
+                          <xs:element name="url" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="wiki">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="published" type="xs:string" />
+                    <xs:element name="summary" type="xs:string" />
+                    <xs:element name="content" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="status" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

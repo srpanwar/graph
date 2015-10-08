@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:twitter="http://api.twitter.com/" xmlns:google="http://base.google.com/ns/1.0" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.w3.org/2005/Atom" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xs:import namespace="http://api.twitter.com/" />
+  <xs:import namespace="http://a9.com/-/spec/opensearch/1.1/" />
+  <xs:element name="feed">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="id" type="xs:string" />
+          <xs:element maxOccurs="unbounded" name="link">
+            <xs:complexType>
+              <xs:attribute name="type" type="xs:string" use="required" />
+              <xs:attribute name="rel" type="xs:string" use="required" />
+              <xs:attribute name="href" type="xs:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="title" type="xs:string" />
+          <xs:element ref="twitter:warning" />
+          <xs:element name="updated" type="xs:dateTime" />
+          <xs:element ref="openSearch:itemsPerPage" />
+          <xs:element name="entry">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:choice maxOccurs="unbounded">
+                  <xs:element name="id" type="xs:string" />
+                  <xs:element name="published" type="xs:dateTime" />
+                  <xs:element name="link">
+                    <xs:complexType>
+                      <xs:attribute name="type" type="xs:string" use="required" />
+                      <xs:attribute name="rel" type="xs:string" use="required" />
+                      <xs:attribute name="href" type="xs:string" use="required" />
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="title" type="xs:string" />
+                  <xs:element name="content">
+                    <xs:complexType>
+                      <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                          <xs:attribute name="type" type="xs:string" use="required" />
+                        </xs:extension>
+                      </xs:simpleContent>
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="updated" type="xs:dateTime" />
+                  <xs:element ref="twitter:source" />
+                  <xs:element ref="twitter:lang" />
+                  <xs:element name="author">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="name" type="xs:string" />
+                        <xs:element name="uri" type="xs:string" />
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:choice>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="xml:lang" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

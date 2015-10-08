@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/i gotta feeling</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=i+gotta+feeling"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=i+gotta+feeling&amp;page=2"/>
+  <title>i gotta feeling - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?page=2&amp;q=i+gotta+feeling&amp;since_id=2247546406"/>
+  <twitter:warning>since_id removed for pagination.</twitter:warning>
+  <updated>2009-06-20T02:15:32Z</updated>
+  <openSearch:itemsPerPage>15</openSearch:itemsPerPage>
+  <link type="application/atom+xml" rel="previous" href="http://search.twitter.com/search.atom?max_id=2247546406&amp;page=1&amp;q=i+gotta+feeling"/>
+  <link type="application/atom+xml" rel="next" href="http://search.twitter.com/search.atom?max_id=2247546406&amp;page=3&amp;q=i+gotta+feeling"/>
+  <entry>
+    <id>tag:search.twitter.com,2005:2247546406</id>
+    <published>2009-06-20T02:15:32Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Desmix/statuses/2247546406"/>
+    <title>@drewdown, i love that song. I gotta a feeling that today is going to be i good day.</title>
+    <content type="html">&lt;a href="http://twitter.com/drewdown"&gt;@drewdown&lt;/a&gt;, &lt;b&gt;i&lt;/b&gt; love that song. &lt;b&gt;I&lt;/b&gt; &lt;b&gt;gotta&lt;/b&gt; a &lt;b&gt;feeling&lt;/b&gt; that today is going to be &lt;b&gt;i&lt;/b&gt; good day.</content>
+    <updated>2009-06-20T02:15:32Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/256823030/gautama-buddha_normal.jpg"/>
+    <twitter:source>&lt;a href="http://help.twitter.com/index.php?pg=kb.page&amp;id=75"&gt;txt&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>Desmix (Desmix  Li)</name>
+      <uri>http://twitter.com/Desmix</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:2247514032</id>
+    <published>2009-06-20T02:12:37Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/drewdown/statuses/2247514032"/>
+    <title>I Gotta Feeling! :) haha</title>
+    <content type="html">&lt;b&gt;I&lt;/b&gt; &lt;b&gt;Gotta&lt;/b&gt; &lt;b&gt;Feeling&lt;/b&gt;! :) haha</content>
+    <updated>2009-06-20T02:12:37Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/72850949/stunna2_normal.jpg"/>
+    <twitter:source>&lt;a href="http://help.twitter.com/index.php?pg=kb.page&amp;id=75"&gt;txt&lt;/a&gt;</twitter:source>
+    <twitter:lang>sv</twitter:lang>
+    <author>
+      <name>drewdown (Andrew Parze)</name>
+      <uri>http://twitter.com/drewdown</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:2247399155</id>
+    <published>2009-06-20T02:02:20Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/JessicaRachael/statuses/2247399155"/>
+    <title>I gotta feeling that tonight&#8217;s gonna be a good good night</title>
+    <content type="html">&lt;b&gt;I&lt;/b&gt; &lt;b&gt;gotta&lt;/b&gt; &lt;b&gt;feeling&lt;/b&gt; that tonight&#8217;s gonna be a good good night</content>
+    <updated>2009-06-20T02:02:20Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/248067479/PICT0337_normal.JPG"/>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>JessicaRachael (Jessica Williams)</name>
+      <uri>http://twitter.com/JessicaRachael</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:2247388547</id>
+    <published>2009-06-20T02:01:24Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/dabears6077/statuses/2247388547"/>
+    <title>I used Shazam to discover I Gotta Feeling by The Black Eyed Peas</title>
+    <content type="html">&lt;b&gt;I&lt;/b&gt; used Shazam to discover &lt;b&gt;I&lt;/b&gt; &lt;b&gt;Gotta&lt;/b&gt; &lt;b&gt;Feeling&lt;/b&gt; by The Black Eyed Peas</content>
+    <updated>2009-06-20T02:01:24Z</updated>
+    <link type="image/png" rel="image" href="http://static.twitter.com/images/default_profile_normal.png"/>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>dabears6077 (Andrew Pellow)</name>
+      <uri>http://twitter.com/dabears6077</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:2247328253</id>
+    <published>2009-06-20T01:56:06Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/LuanDamasceno/statuses/2247328253"/>
+    <title>Tens&#227;o na Billboard, quem pega o 1#? Boom Boom Pow, I Gotta Feeling ou Drake?</title>
+    <content type="html">Tens&#227;o na Billboard, quem pega o 1#? Boom Boom Pow, &lt;b&gt;I&lt;/b&gt; &lt;b&gt;Gotta&lt;/b&gt; &lt;b&gt;Feeling&lt;/b&gt; ou Drake?</content>
+    <updated>2009-06-20T01:56:06Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/192552295/avatar_luandamasceno_normal.png"/>
+    <twitter:source>&lt;a href="http://widgets.opera.com/widget/7206"&gt;Twitter Opera widget&lt;/a&gt;</twitter:source>
+    <twitter:lang>nl</twitter:lang>
+    <author>
+      <name>LuanDamasceno (Luan Damasceno)</name>
+      <uri>http://twitter.com/LuanDamasceno</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:2247288246</id>
+    <published>2009-06-20T01:52:28Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/fashionrevolt/statuses/2247288246"/>
+    <title>..didn't make me anything to wear tonite so I gotta spice it up with accessories and some footgear. I'm feeling spicy!*</title>
+    <content type="html">..didn't make me anything to wear tonite so &lt;b&gt;I&lt;/b&gt; &lt;b&gt;gotta&lt;/b&gt; spice it up with accessories and some footgear. &lt;b&gt;I&lt;/b&gt;'m &lt;b&gt;feeling&lt;/b&gt; spicy!*</content>
+    <updated>2009-06-20T01:52:28Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/251024878/me_normal.jpg"/>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>fashionrevolt (Sheena Marie)</name>
+      <uri>http://twitter.com/fashionrevolt</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:2247223963</id>
+    <published>2009-06-20T01:46:33Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/swalloww/statuses/2247223963"/>
+    <title>"I gotta feeling that tonight's guna be a good good night"</title>
+    <content type="html">&amp;quot;&lt;b&gt;I&lt;/b&gt; &lt;b&gt;gotta&lt;/b&gt; &lt;b&gt;feeling&lt;/b&gt; that tonight's guna be a good good night&amp;quot;</content>
+    <updated>2009-06-20T01:46:33Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/210841024/new_hair_normal.jpg"/>
+    <twitter:source>&lt;a href="http://help.twitter.com/index.php?pg=kb.page&amp;id=75"&gt;txt&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>swalloww (Jessica Walker)</name>
+      <uri>http://twitter.com/swalloww</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:2247212576</id>
+    <published>2009-06-20T01:45:31Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/capsulet/statuses/2247212576"/>
+    <title>Things don't ever seem to go my way. No wonder I'm actively doing so much crap... Gotta have some sort of brief feeling of control.</title>
+    <content type="html">Things don't ever seem to go my way. No wonder &lt;b&gt;I&lt;/b&gt;'m actively doing so much crap... &lt;b&gt;Gotta&lt;/b&gt; have some sort of brief &lt;b&gt;feeling&lt;/b&gt; of control.</content>
+    <updated>2009-06-20T01:45:31Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/128202023/hmm_normal.jpg"/>
+    <twitter:source>&lt;a href="http://help.twitter.com/index.php?pg=kb.page&amp;id=75"&gt;txt&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>capsulet (Syjil Ashraf)</name>
+      <uri>http://twitter.com/capsulet</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:2247138042</id>
+    <published>2009-06-20T01:38:47Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/ktiomri/statuses/2247138042"/>
+    <title>laughing. i gotta feeling. "tonignts the night. lets live it up" "fill up my cup Mozletof"</title>
+    <content type="html">laughing. &lt;b&gt;i&lt;/b&gt; &lt;b&gt;gotta&lt;/b&gt; &lt;b&gt;feeling&lt;/b&gt;. &amp;quot;tonignts the night. lets live it up&amp;quot; &amp;quot;fill up my cup Mozletof&amp;quot;</content>
+    <updated>2009-06-20T01:38:47Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/269935513/l_c51b64437df448499c16de2c2c1cbaed_normal.jpg"/>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>ktiomri (Tori&amp;Kim)</name>
+      <uri>http://twitter.com/ktiomri</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:2247136702</id>
+    <published>2009-06-20T01:38:39Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Lily_Lee95/statuses/2247136702"/>
+    <title>I gotta feeling...</title>
+    <content type="html">&lt;b&gt;I&lt;/b&gt; &lt;b&gt;gotta&lt;/b&gt; &lt;b&gt;feeling&lt;/b&gt;...</content>
+    <updated>2009-06-20T01:38:39Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/241275896/co4la_normal.jpg"/>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>sv</twitter:lang>
+    <author>
+      <name>Lily_Lee95 (Lilly)</name>
+      <uri>http://twitter.com/Lily_Lee95</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:2247129310</id>
+    <published>2009-06-20T01:37:58Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/babiigurlkayla/statuses/2247129310"/>
+    <title>Sorting out Twitter. ;) Loving I Gotta Feeling - BEP</title>
+    <content type="html">Sorting out Twitter. ;) Loving &lt;b&gt;I&lt;/b&gt; &lt;b&gt;Gotta&lt;/b&gt; &lt;b&gt;Feeling&lt;/b&gt; - BEP</content>
+    <updated>2009-06-20T01:37:58Z</updated>
+    <link type="image/png" rel="image" href="http://static.twitter.com/images/default_profile_normal.png"/>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>babiigurlkayla (Kayla Bellamy)</name>
+      <uri>http://twitter.com/babiigurlkayla</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:2247117947</id>
+    <published>2009-06-20T01:36:57Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/hqvideos/statuses/2247117947"/>
+    <title>The Black Eyed Peas - I Gotta Feeling http://tinyurl.com/ma8mk8</title>
+    <content type="html">The Black Eyed Peas - &lt;b&gt;I&lt;/b&gt; &lt;b&gt;Gotta&lt;/b&gt; &lt;b&gt;Feeling&lt;/b&gt; &lt;a href="http://tinyurl.com/ma8mk8"&gt;http://tinyurl.com/ma8mk8&lt;/a&gt;</content>
+    <updated>2009-06-20T01:36:57Z</updated>
+    <link type="image/png" rel="image" href="http://static.twitter.com/images/default_profile_normal.png"/>
+    <twitter:source>&lt;a href="http://twitterfeed.com"&gt;twitterfeed&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>hqvideos (HQ Videos)</name>
+      <uri>http://twitter.com/hqvideos</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:2246978032</id>
+    <published>2009-06-20T01:24:28Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/bryanj0seph/statuses/2246978032"/>
+    <title>@TheeDannyG haha bro I don't even know how I'm standing right now. Epic night for sure! "I gotta feeling"- black eyed peas.You already know!</title>
+    <content type="html">&lt;a href="http://twitter.com/TheeDannyG"&gt;@TheeDannyG&lt;/a&gt; haha bro &lt;b&gt;I&lt;/b&gt; don't even know how &lt;b&gt;I&lt;/b&gt;'m standing right now. Epic night for sure! &amp;quot;&lt;b&gt;I&lt;/b&gt; &lt;b&gt;gotta&lt;/b&gt; &lt;b&gt;feeling&lt;/b&gt;&amp;quot;- black eyed peas.You already know!</content>
+    <updated>2009-06-20T01:24:28Z</updated>
+    <link type="image/png" rel="image" href="http://static.twitter.com/images/default_profile_normal.png"/>
+    <twitter:source>&lt;a href="http://www.tinytwitter.com/"&gt;TinyTwitter&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>bryanj0seph (Bryan Bartolome)</name>
+      <uri>http://twitter.com/bryanj0seph</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:2246903502</id>
+    <published>2009-06-20T01:17:47Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/kspringa/statuses/2246903502"/>
+    <title>I Gotta Feeling - Black Eyed Peas</title>
+    <content type="html">&lt;b&gt;I&lt;/b&gt; &lt;b&gt;Gotta&lt;/b&gt; &lt;b&gt;Feeling&lt;/b&gt; - Black Eyed Peas</content>
+    <updated>2009-06-20T01:17:47Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/76396417/.ahihihiha_normal.jpg"/>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>sv</twitter:lang>
+    <author>
+      <name>kspringa (Kendall Springall)</name>
+      <uri>http://twitter.com/kspringa</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:2246838168</id>
+    <published>2009-06-20T01:11:58Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/craigdp/statuses/2246838168"/>
+    <title>I gotta feeling, that tonights gunna be a good good night.</title>
+    <content type="html">&lt;b&gt;I&lt;/b&gt; &lt;b&gt;gotta&lt;/b&gt; &lt;b&gt;feeling&lt;/b&gt;, that tonights gunna be a good good night.</content>
+    <updated>2009-06-20T01:11:58Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/114655700/106twitter_normal.jpg"/>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>craigdp (Craig Plumridge)</name>
+      <uri>http://twitter.com/craigdp</uri>
+    </author>
+  </entry>
+</feed>

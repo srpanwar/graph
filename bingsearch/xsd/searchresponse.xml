@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?pageview_candidate?>
+<SearchResponse xmlns="http://schemas.microsoft.com/LiveSearch/2008/04/XML/element" Version="2.0">
+  <Query>
+    <SearchTerms>hello</SearchTerms>
+  </Query>
+  <Errors>
+    <Error>
+      <Code>1002</Code>
+      <Message>Parameter has invalid value.</Message>
+      <Parameter>SearchRequest.AppId</Parameter>
+      <Value>52447E790CBE691A81FDFF596A4A976BB4FD39C</Value>
+      <HelpUrl>http://msdn.microsoft.com/en-us/library/dd251042.aspx</HelpUrl>
+    </Error>
+  </Errors>
+  <web:Web xmlns:web="http://schemas.microsoft.com/LiveSearch/2008/04/XML/web">
+    <web:Total>77300000</web:Total>
+    <web:Offset>0</web:Offset>
+    <web:Results>
+      <web:WebResult>
+        <web:Title>HELLO! - The place for celebrity news - hellomagazine.com</web:Title>
+        <web:Description>News and pictures from the world of celebrity, royalty, entertainment, film and music; fashion trends and videos; health and beauty; celebrity profiles; celebrity news ticker and ... </web:Description>
+        <web:Url>http://www.hellomagazine.com/</web:Url>
+        <web:DisplayUrl>www.hellomagazine.com</web:DisplayUrl>
+        <web:DateTime>2009-06-04T00:18:35Z</web:DateTime>
+      </web:WebResult>
+      <web:WebResult>
+        <web:Title>Hello - Wikipedia, the free encyclopedia</web:Title>
+        <web:Description>Hello is a salutation or greeting in the English language. Hello was recorded in dictionaries in 1883. [1]</web:Description>
+        <web:Url>http://en.wikipedia.org/wiki/Hello</web:Url>
+        <web:DisplayUrl>en.wikipedia.org/wiki/Hello</web:DisplayUrl>
+        <web:DateTime>2009-06-01T20:39:03Z</web:DateTime>
+      </web:WebResult>
+      <web:WebResult>
+        <web:Title>Hello Kitty Gifts</web:Title>
+        <web:Description>Blog of News &amp; Trips of my Hello Kitty and of selected Limited Edition and Special Edition Hello Kitty Gifts for all Occasions and Everyone</web:Description>
+        <web:Url>http://hellokittygifts.com/</web:Url>
+        <web:DisplayUrl>hellokittygifts.com</web:DisplayUrl>
+        <web:DateTime>2009-06-04T00:40:03Z</web:DateTime>
+      </web:WebResult>
+      <web:WebResult>
+        <web:Title>Hello! - Wikipedia, the free encyclopedia</web:Title>
+        <web:Description>Hello! is a weekly magazine specialising in celebrity news and gossip, published in Britain. Hello! sells editions in Britain, Republic of Ireland, India, UAE, Spain, Mexico ... </web:Description>
+        <web:Url>http://en.wikipedia.org/wiki/Hello!</web:Url>
+        <web:DisplayUrl>en.wikipedia.org/wiki/Hello!</web:DisplayUrl>
+        <web:DateTime>2009-05-30T14:50:40Z</web:DateTime>
+      </web:WebResult>
+      <web:WebResult>
+        <web:Title>YouTube - Lionel Richie - Hello</web:Title>
+        <web:Description>Just saw him for the first concert of his round yest in Dublin... I think he rocks more now than ever. You&apos;re up for a great show! :) </web:Description>
+        <web:Url>http://www.youtube.com/watch?v=PDZcqBgCS74</web:Url>
+        <web:DisplayUrl>www.youtube.com/watch?v=PDZcqBgCS74</web:DisplayUrl>
+        <web:DateTime>2009-03-15T02:59:04Z</web:DateTime>
+      </web:WebResult>
+      <web:WebResult>
+        <web:Title>&quot;Hello&quot; in many languages </web:Title>
+        <web:Description>At this site you can learn how to say hello in more than 775 languages from around the world. My goal is to include every language, so that people will be able to say at least a ... </web:Description>
+        <web:Url>http://www.elite.net/~runner/jennifers/hello.htm</web:Url>
+        <web:DisplayUrl>www.elite.net/~runner/jennifers/hello.htm</web:DisplayUrl>
+        <web:DateTime>2009-05-29T19:38:11Z</web:DateTime>
+      </web:WebResult>
+      <web:WebResult>
+        <web:Title>Hello Kitty - Wikipedia, the free encyclopedia</web:Title>
+        <web:Description>Its tone or style may not be appropriate for Wikipedia. Tagged since August 2008. It may need a complete rewrite to meet Wikipedia&apos;s quality standards.</web:Description>
+        <web:Url>http://en.wikipedia.org/?title=Hello_Kitty</web:Url>
+        <web:DisplayUrl>en.wikipedia.org/?title=Hello_Kitty</web:DisplayUrl>
+        <web:DateTime>2009-06-01T11:20:42Z</web:DateTime>
+      </web:WebResult>
+      <web:WebResult>
+        <web:Title>Hello Campaign</web:Title>
+        <web:Description>Simin, Sabrina and I (all part of Hello team) were having a supper-cum-chitchat session before Saturday (our BIG Hello Day) and we were talking about how we feel about Hello ... </web:Description>
+        <web:Url>http://hellocampaign.org/</web:Url>
+        <web:DisplayUrl>hellocampaign.org</web:DisplayUrl>
+        <web:DateTime>2009-06-03T20:50:59Z</web:DateTime>
+      </web:WebResult>
+      <web:WebResult>
+        <web:Title>hello definition | Dictionary.com </web:Title>
+        <web:Description>Copy &amp; paste this link to your blog or website to reference this page</web:Description>
+        <web:Url>http://dictionary.reference.com/browse/hello</web:Url>
+        <web:DisplayUrl>dictionary.reference.com/browse/hello</web:DisplayUrl>
+        <web:DateTime>2009-05-08T20:38:52Z</web:DateTime>
+      </web:WebResult>
+      <web:WebResult>
+        <web:Title>Hello (Lionel Richie song) - Wikipedia, the free encyclopedia</web:Title>
+        <web:Description>Hello&quot; is a song by Lionel Richie. Taken as the third single from Richie&apos;s multi-platinum album Can&apos;t Slow Down, the song was released in 1984 and reached number one on three ... </web:Description>
+        <web:Url>http://en.wikipedia.org/wiki/Hello_(Lionel_Richie_song)</web:Url>
+        <web:DisplayUrl>en.wikipedia.org/wiki/Hello_(Lionel_Richie_song)</web:DisplayUrl>
+        <web:DateTime>2009-05-30T23:33:13Z</web:DateTime>
+      </web:WebResult>
+    </web:Results>
+  </web:Web>
+</SearchResponse>

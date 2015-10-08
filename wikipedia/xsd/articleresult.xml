@@ -1,0 +1,122 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <base>http://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.15alpha</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0"/>
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">Wikipedia</namespace>
+      <namespace key="5">Wikipedia talk</namespace>
+      <namespace key="6">File</namespace>
+      <namespace key="7">File talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="100">Portal</namespace>
+      <namespace key="101">Portal talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Main Page</title>
+    <id>15580374</id>
+    <revision>
+      <id>289122198</id>
+      <timestamp>2009-05-10T20:14:33Z</timestamp>
+      <contributor>
+        <username>Happy-melon</username>
+        <id>994084</id>
+      </contributor>
+      <comment>transition complete</comment>
+      <text xml:space="preserve">&lt;!--        BANNER ACROSS TOP OF PAGE        --&gt;
+{| id="mp-topbanner" style="width:100%; background:#fcfcfc; margin-top:1.2em; border:1px solid #ccc;"
+| style="width:56%; color:#000;" |
+&lt;!--        "WELCOME TO WIKIPEDIA" AND ARTICLE COUNT        --&gt;
+{| style="width:280px; border:none; background:none;"
+| style="width:280px; text-align:center; white-space:nowrap; color:#000;" |
+&lt;div style="font-size:162%; border:none; margin:0; padding:.1em; color:#000;"&gt;Welcome to [[Wikipedia]],&lt;/div&gt;
+&lt;div style="top:+0.2em; font-size:95%;"&gt;the [[free content|free]] [[encyclopedia]] that [[Wikipedia:Introduction|anyone&amp;nbsp;can&amp;nbsp;edit]].&lt;/div&gt;
+&lt;div id="articlecount" style="width:100%; text-align:center; font-size:85%;"&gt;[[Special:Statistics|{{NUMBEROFARTICLES}}]] articles in [[English language|English]]&lt;/div&gt;
+|}
+&lt;!--        PORTAL LIST ON RIGHT-HAND SIDE        --&gt;
+| style="width:11%; font-size:95%;" |
+* [[Portal:Arts|Arts]]
+* [[Portal:Biography|Biography]]
+* [[Portal:Geography|Geography]]
+| style="width:11%; font-size:95%;" |
+* [[Portal:History|History]]
+* [[Portal:Mathematics|Mathematics]]
+* [[Portal:Science|Science]]
+| style="width:11%; font-size:95%;" |
+* [[Portal:Society|Society]]
+* [[Portal:Technology|Technology]]
+* '''[[Portal:Contents/Portals|All&amp;nbsp;portals]]'''
+|}
+&lt;!--        STRAPLINE IMMEDIATELY BELOW BANNER        --&gt;
+{| id="mp-strapline" style="width:100%; background:none; margin:-.8em 0 -.7em 0;"
+| style="font-size:95%; padding:10px 0; margin:0; text-align:left; white-space:nowrap; color:#000;" | [[Wikipedia:About|Overview]]&amp;nbsp;'''·''' [[Wikipedia:Tutorial|Editing]]&amp;nbsp;'''·''' [[Wikipedia:Questions|Questions]]&amp;nbsp;'''·''' [[Help:Contents|Help]]
+| style="font-size:95%; padding:10px 0; margin:0; text-align:right; white-space:nowrap; color:#000;" |
+[[Portal:Contents|Contents]]&amp;nbsp;'''·''' [[Portal:Contents/Categorical index|Categories]]&amp;nbsp;'''·''' [[Portal:Featured content|Featured content]]&amp;nbsp;'''·''' [[Portal:Contents/Quick index|A–Z index]]
+|}
+&lt;!--        TODAY'S FEATURED ARTICLE; DID YOU KNOW        --&gt;
+{| id="mp-upper" style="margin:0; background:none;"
+{{#if:{{Main Page banner}}|&lt;tr id="mp-banner"&gt;&lt;td colspan="3" style="text-align:center; font-size:100%; background-color:#F2E6CE; padding:0.2em; border:1px solid #BFB1A3; color:#000; font-weight:bold;"&gt;{{Main Page banner}}&lt;/td&gt;&lt;/tr&gt;
+}}
+| class="MainPageBG" style="width:55%; border:1px solid #cef2e0; background:#f5fffa; vertical-align:top; color:#000;" |
+{| id="mp-left" cellpadding="2" cellspacing="5" style="width:100%; vertical-align:top; background:#f5fffa;"
+! &lt;h2 id="mp-tfa-h2" style="margin:0; background:#cef2e0; font-size:120%; font-weight:bold; border:1px solid #a3bfb1; text-align:left; color:#000; padding:0.2em 0.4em;"&gt;Today's featured article&lt;/h2&gt;
+|-
+| style="color:#000;" | &lt;div id="mp-tfa"&gt;{{Wikipedia:Today's featured article/{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}}}&lt;/div&gt;
+|-
+! &lt;h2 id="mp-dyk-h2" style="margin:0; background:#cef2e0; font-size:120%; font-weight:bold; border:1px solid #a3bfb1; text-align:left; color:#000; padding:0.2em 0.4em;"&gt;Did you know...&lt;/h2&gt;
+|-
+| style="color:#000;" | &lt;div id="mp-dyk"&gt;{{Did you know}}&lt;/div&gt;
+|}
+| style="border:1px solid transparent;" |
+&lt;!--        IN THE NEWS; ON THIS DAY        --&gt;
+| class="MainPageBG" style="width:45%; border:1px solid #cedff2; background:#f5faff; vertical-align:top;"|
+{| id="mp-right" cellpadding="2" cellspacing="5" style="width:100%; vertical-align:top; background:#f5faff;"
+! &lt;h2 id="mp-itn-h2" style="margin:0; background:#cedff2; font-size:120%; font-weight:bold; border:1px solid #a3b0bf; text-align:left; color:#000; padding:0.2em 0.4em;"&gt;In the news&lt;/h2&gt;
+|-
+| style="color:#000;" | &lt;div id="mp-itn"&gt;{{In the news}}&lt;/div&gt;
+|-
+! &lt;h2 id="mp-otd-h2" style="margin:0; background:#cedff2; font-size:120%; font-weight:bold; border:1px solid #a3b0bf; text-align:left; color:#000; padding:0.2em 0.4em;"&gt;On this day...&lt;/h2&gt;
+|-
+| style="color:#000;" | &lt;div id="mp-otd"&gt;{{Wikipedia:Selected anniversaries/{{CURRENTMONTHNAME}} {{CURRENTDAY}}}}&lt;/div&gt;
+|}
+|}
+&lt;!--        TODAY'S FEATURED PICTURE        --&gt;
+{| id="mp-tfp" style="margin:4px 0 0 0; width:100%; background:none;"
+| class="MainPageBG" style="width:100%; border:1px solid #ddcef2; background:#faf5ff; vertical-align:top; color:#000;"|
+{| cellpadding="2" cellspacing="5" style="vertical-align:top; background:#faf5ff; color:#000; width:100%"
+! &lt;h2  id="mp-tfp-h2" style="margin:0; background:#ddcef2; font-size:120%; font-weight:bold; border:1px solid #afa3bf; text-align:left; color:#000; padding:0.2em 0.4em"&gt;Today's featured picture&lt;/h2&gt;
+|-
+| style="color:#000;" | {{POTD protected/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}}}
+|}
+|}
+&lt;!--        SECTIONS AT BOTTOM OF PAGE        --&gt;
+&lt;div id="mp-other" style="padding-top:4px; padding-bottom:2px;"&gt;
+== Other areas of Wikipedia ==
+{{WikipediaOther}}
+&lt;/div&gt;&lt;div id="mp-sister"&gt;
+== Wikipedia's sister projects ==
+{{WikipediaSister}}
+&lt;/div&gt;&lt;div id="mp-lang"&gt;
+== Wikipedia languages ==
+{{Wikipedialang}}
+&lt;/div&gt;
+&lt;!--        INTERWIKI STRAPLINE        --&gt;
+{{MainPageInterwikis}}__NOTOC____NOEDITSECTION__</text>
+    </revision>
+  </page>
+</mediawiki>

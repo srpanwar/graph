@@ -1,0 +1,7 @@
+﻿music 2
+single 2
+album 2
+song 2
+record 2
+mp3 2
+lyrics 2

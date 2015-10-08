@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://a9.com/-/spec/opensearch/1.1/" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://a9.com/-/spec/opensearch/1.1/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Query">
+    <xs:complexType>
+      <xs:attribute name="role" type="xs:string" use="required" />
+      <xs:attribute name="searchTerms" type="xs:string" use="required" />
+      <xs:attribute name="startPage" type="xs:unsignedByte" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="totalResults" type="xs:unsignedShort" />
+  <xs:element name="startIndex" type="xs:unsignedByte" />
+  <xs:element name="itemsPerPage" type="xs:unsignedByte" />
+</xs:schema>

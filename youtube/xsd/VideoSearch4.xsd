@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://search.yahoo.com/mrss/" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://search.yahoo.com/mrss/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://gdata.youtube.com/schemas/2007" />
+  <xs:element name="group">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="category">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute name="label" type="xs:string" use="required" />
+                <xs:attribute name="scheme" type="xs:string" use="required" />
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element maxOccurs="unbounded" name="content">
+          <xs:complexType>
+            <xs:attribute name="url" type="xs:string" use="required" />
+            <xs:attribute name="type" type="xs:string" use="required" />
+            <xs:attribute name="medium" type="xs:string" use="required" />
+            <xs:attribute name="isDefault" type="xs:boolean" use="optional" />
+            <xs:attribute name="expression" type="xs:string" use="required" />
+            <xs:attribute name="duration" type="xs:unsignedByte" use="required" />
+            <xs:attribute xmlns:q1="http://gdata.youtube.com/schemas/2007" ref="q1:format" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="description">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute name="type" type="xs:string" use="required" />
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="keywords" type="xs:string" />
+        <xs:element name="player">
+          <xs:complexType>
+            <xs:attribute name="url" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="restriction">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute name="type" type="xs:string" use="required" />
+                <xs:attribute name="relationship" type="xs:string" use="required" />
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element maxOccurs="unbounded" name="thumbnail">
+          <xs:complexType>
+            <xs:attribute name="url" type="xs:string" use="required" />
+            <xs:attribute name="height" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="width" type="xs:unsignedShort" use="required" />
+            <xs:attribute name="time" type="xs:time" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="title">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute name="type" type="xs:string" use="required" />
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element xmlns:q2="http://gdata.youtube.com/schemas/2007" ref="q2:duration" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

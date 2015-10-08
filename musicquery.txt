@@ -1,0 +1,18 @@
+artist album song lyric
+
+artist:'rihanna' album
+artist:'rihanna' song
+
+artist:'rihanna' artist
+
+artist:'rihanna' song:'take a bow'
+
+artist:'rihanna' concert
+
+album:'Take a bow'
+
+album:'Take a bow' song:'take a bow'
+
+!artist !album !song
+
+

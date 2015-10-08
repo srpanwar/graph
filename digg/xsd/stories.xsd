@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="stories">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="story">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="description" type="xs:string" />
+              <xs:element name="title" type="xs:string" />
+              <xs:element name="user">
+                <xs:complexType>
+                  <xs:attribute name="icon" type="xs:string" use="required" />
+                  <xs:attribute name="name" type="xs:string" use="required" />
+                  <xs:attribute name="profileviews" type="xs:unsignedShort" use="required" />
+                  <xs:attribute name="registered" type="xs:unsignedInt" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="topic">
+                <xs:complexType>
+                  <xs:attribute name="name" type="xs:string" use="required" />
+                  <xs:attribute name="short_name" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="container">
+                <xs:complexType>
+                  <xs:attribute name="name" type="xs:string" use="required" />
+                  <xs:attribute name="short_name" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="shorturl">
+                <xs:complexType>
+                  <xs:attribute name="short_url" type="xs:string" use="required" />
+                  <xs:attribute name="view_count" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="link" type="xs:string" use="required" />
+            <xs:attribute name="submit_date" type="xs:unsignedInt" use="required" />
+            <xs:attribute name="diggs" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="id" type="xs:unsignedInt" use="required" />
+            <xs:attribute name="comments" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="href" type="xs:string" use="required" />
+            <xs:attribute name="status" type="xs:string" use="required" />
+            <xs:attribute name="media" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="count" type="xs:unsignedByte" use="required" />
+      <xs:attribute name="offset" type="xs:unsignedByte" use="required" />
+      <xs:attribute name="timestamp" type="xs:unsignedInt" use="required" />
+      <xs:attribute name="total" type="xs:unsignedByte" use="required" />
+      <xs:attribute name="version" type="xs:decimal" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

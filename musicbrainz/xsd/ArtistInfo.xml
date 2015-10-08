@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://musicbrainz.org/ns/mmd-1.0#" xmlns:ext="http://musicbrainz.org/ns/ext-1.0#">
+  <artist-list count="399" offset="0">
+    <artist id="4dbf5678-7a31-406a-abbe-232f8ac2cd63" type="Person" ext:score="100">
+      <name>Bryan Adams</name>
+      <sort-name>Adams, Bryan</sort-name>
+      <life-span begin="1959-11-05"/>
+    </artist>
+    <artist id="15d22e7d-3020-48d2-b7cf-b5d2f95c321b" ext:score="80">
+      <name>Andrea Remanda &amp; Bryan Adams</name>
+      <sort-name>Andrea Remanda &amp; Bryan Adams</sort-name>
+    </artist>
+  </artist-list>
+</metadata>

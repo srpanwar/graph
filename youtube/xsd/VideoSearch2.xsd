@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.google.com/g/2005" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://schemas.google.com/g/2005" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="comments">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="feedLink">
+          <xs:complexType>
+            <xs:attribute name="href" type="xs:string" use="required" />
+            <xs:attribute name="countHint" type="xs:unsignedShort" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="rating">
+    <xs:complexType>
+      <xs:attribute name="average" type="xs:decimal" use="required" />
+      <xs:attribute name="max" type="xs:unsignedByte" use="required" />
+      <xs:attribute name="min" type="xs:unsignedByte" use="required" />
+      <xs:attribute name="numRaters" type="xs:unsignedShort" use="required" />
+      <xs:attribute name="rel" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

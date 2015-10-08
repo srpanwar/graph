@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchSuggestion version="2.0" xmlns="http://opensearch.org/searchsuggest2">
+  <Query>Te</Query>
+  <Section>
+    <Item>
+      <Text>TE</Text>
+      <Description>Te or TE may refer to or be used for:</Description>
+      <Url>http://en.wikipedia.org/wiki/TE</Url>
+    </Item>
+    <Item>
+      <Text>Tiffany Evans (album)</Text>
+      <Description>Tiffany Evans is the self-titled debut album by R&amp;B/pop singer Tiffany Evans, it was released by Columbia Records on April 22 2008 (see 2008 in music). </Description>
+      <Url>http://en.wikipedia.org/wiki/Tiffany_Evans_(album)</Url>
+    </Item>
+    <Item>
+      <Text>Te (Cyrillic)</Text>
+      <Description>Te (Т, т, italics: Т, т) is the letter in the Cyrillic alphabet corresponding to T in the Latin alphabet. </Description>
+      <Url>http://en.wikipedia.org/wiki/Te_(Cyrillic)</Url>
+    </Item>
+    <Item>
+      <Text>Te (kana)</Text>
+      <Description>て, in hiragana, or テ in katakana, is one of the Japanese kana, each of which represents one mora. </Description>
+      <Url>http://en.wikipedia.org/wiki/Te_(kana)</Url>
+    </Item>
+    <Item>
+      <Text>Air New Zealand Flight 901</Text>
+      <Description>Air New Zealand Flight 901 (TE901) was a scheduled Antarctic sightseeing flight from Auckland Airport in New Zealand. </Description>
+      <Url>http://en.wikipedia.org/wiki/Air_New_Zealand_Flight_901</Url>
+    </Item>
+    <Item>
+      <Text>Te Acordarás de Mí</Text>
+      <Description>
+        Te Acordarás de Mí ("You Will Remember Me") is the title of a studio album released by singer Olga Tañón on October 27, 1998. This album became her second number-one set on the Billboard Top Latin Albums.
+      </Description>
+      <Url>http://en.wikipedia.org/wiki/Te_Acordar%C3%A1s_de_M%C3%AD</Url>
+    </Item>
+    <Item>
+      <Text>Te Ador (Elena Gheorghe album)</Text>
+      <Description>Te Ador is the third studio album but second solo album from Romanian singer Elena Gheorghe. </Description>
+      <Url>http://en.wikipedia.org/wiki/Te_Ador_(Elena_Gheorghe_album)</Url>
+    </Item>
+    <Item>
+      <Text>Te Afuafou</Text>
+      <Description>Te Afuafou is an isle of Funafuti, Tuvalu.</Description>
+      <Url>http://en.wikipedia.org/wiki/Te_Afuafou</Url>
+    </Item>
+  </Section>
+</SearchSuggestion>

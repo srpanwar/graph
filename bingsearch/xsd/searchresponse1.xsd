@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.microsoft.com/LiveSearch/2008/04/XML/web" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/LiveSearch/2008/04/XML/web" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Web">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Total" type="xs:unsignedInt" />
+        <xs:element name="Offset" type="xs:unsignedByte" />
+        <xs:element name="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="WebResult">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Title" type="xs:string" />
+                    <xs:element name="Description" type="xs:string" />
+                    <xs:element name="Url" type="xs:string" />
+                    <xs:element name="DisplayUrl" type="xs:string" />
+                    <xs:element name="DateTime" type="xs:dateTime" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

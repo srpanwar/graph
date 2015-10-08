@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://api.twitter.com/" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://api.twitter.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="warning" type="xs:string" />
+  <xs:element name="source" type="xs:string" />
+  <xs:element name="lang" type="xs:string" />
+</xs:schema>
